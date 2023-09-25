@@ -2,6 +2,10 @@
   background: url(imagenes/background.jpg);
 }
 
+.background-inicio{
+  background-color: bisque;
+}
+
 .icon-navbar{
   width: 60px;
   height: 60px;
