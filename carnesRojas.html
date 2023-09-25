@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <head>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Aperitivos</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </head> 
+
+    <main>
+        <div class="d-flex justify-content-center m-5">
+            <h1>Entradas</h1>
+        </div>
+
+        <div>
+            <div class="d-flex flex-row m-3 justify-content-center">
+
+                <div class='imgs-container m-2'>
+                    <div class='receta-container'>
+                        <a href="" data-toggle="modal" data-target="#buñuelosModal">
+                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/Bunuelos-de-bacalao.jpg"/>
+                            <div class="overlay">
+                                <div class="texto-overlay">
+                                    <p>Buñuelos de bacalao</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal" id="buñuelosModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title">Buñuelos de bacalao</h3>
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                          <h5>Ingredientes:</h5>
+                          <ul>
+                            <li>500 g. de bacalao salado</li>
+                            <li>1 hoja de laurel</li>
+                            <li>5 granos de pimienta guayabita</li>
+                            <li>Un diente de ajo</li>
+                            <li>1 cucharadita de pimienta negra</li>
+                            <li>2 tazas de harina de trigo</li>
+                            <li>2 limones</li>
+                            <li>2 huevos</li>
+                            <li>1 cebolla blanca</li>
+                            <li>1 ramita de perejil</li>
+                            <li>1 ½ taza de agua de la cocción del bacalaol</li>
+                            <li>2 tazas de aceite para freír</li>
+                          </ul>
+                          <hr>
+                          <h5>Preparacion:</h5>
+                          <ol>
+                            <li>Al menos doce horas antes de preparar los buñuelos, enjuague el bacalao con agua corriente. Luego, póngalo en un recipiente de vidrio, con tapa; cubra el bacalao con suficiente agua. Guárdelo dentro de la nevera toda la noche. A la mañana siguiente, cambie el agua por agua fresca y déjelo reposando en la nevera hasta que empiece a hacer los buñuelos.</li>
+                            <li>Coloque una olla mediana en la estufa, Agregue unas tres tazas de agua. Agregue el bacalao, el jugo de un limón, los granos pimienta guayabita, y la hoja de laurel. Cocine a fuego medio por aproximadamente media hora. Mientras tanto, pele la cebolla, y córtela finamente.</li>
+                            <li>Cuando el bacalao este tierno, apague la estufa y cuélelo. Conserve una taza y media de agua de la cocción. Espere un rato a que se enfríe, luego póngalo sobre una superficie de trabajo y desmenúcelo. Cuidadosamente, extraiga todas las espinas del bacalao, la piel y los cartílagos del pescado. Coloque el pescado desmenuzado en un bol.</li>
+                            <li>Al bol de mezclas donde puso el bacalao, agregue el diente de ajo triturado, la pimienta negra, la harina de trigo, el jugo de limón, los huevos, la cebolla picada y el perejil.</li>
+                            <li>Mezcle todos los ingredientes con una paleta de cocina, hasta que estén perfectamente integrados. Incorpore el agua de la cocción del bacalao, poco a poco, hasta que la mezcla se torne suave.</li>
+                            <li>Ponga el aceite dentro de un sartén de fondo grueso. Encienda la estufa a fuego alto. Espere hasta que el aceite empiece a burbujear. Usando una cuchara coloque los buñuelos dentro del sartén. Para ello, llene una cuchara grande con abundante mezcla y viértala con cuidado dentro del sartén.</li>
+                            <li>Pasados tres minutos, voltee los buñuelos para que se cocinen por ambos lados. Por último, retire los buñuelos del sartén, y déjelas reposando sobre un plato cubierto con papel absorbente.</li>
+                            <li>Sirva los buñuelos con rodajas de limón y con aioli o alguna salsa a base de mayonesa (mayonesa de aguacate, salsa rosada, etc).</li>
+                          </ol>
+                        </div>  
+                      </div>
+                    </div>
+                </div>
+
+                <!----------------------------------------------------------->
+
+                <div class='imgs-container m-2'>
+                    <div class='receta-container'>
+                        <a href="" data-toggle="modal" data-target="#croquetasModal">
+                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/croqueta-de-arroz.png"/>
+                            <div class="overlay">
+                                <div class="texto-overlay">
+                                    <p>Croquetas de Arroz con Puerro</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal" id="croquetasModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title">Croquetas de Arroz con Puerro</h3>
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                          <h5>Ingredientes:</h5>
+                            <ul>
+                                <li>2 tazas de arroz blanco cocido</li>
+                                <li>2 huevos grandes</li>
+                                <li>3 ramas de puerro</li>
+                                <li>250gr. de panceta picadita</li>
+                                <li>1 taza de queso parmesano rallado</li>
+                                <li>1 cebolla pequeña blanca</li>
+                                <li>Huevos, harina y pan rallado (para empanar)</li>
+                            </ul>
+                          <hr>
+                          <h5>Preparacion:</h5>
+                          <ol>
+                            <li>En una sartén de teflón coloca la panceta, cuando comience a soltar la grasa agrega la cebolla y el puerro todo picado pequeñito (utiliza todo el puerro, la parte blanca y la verde), deja sofreír unos minutos y retira del fuego cuando se  ablanden los puerros y la cebolla.</li>
+                            <li>En un recipiente coloca el arroz, los huevos, el queso parmesano y el sofrito anterior, mezcla muy bien y con las manos procede a hacer tus croquetas, dándole una forma ovalada o la que tu prefieras.</li>
+                            <li>Cuando tengas todas tus croquetas hechas, llévalas a la nevera por una hora (esto te facilitara el proceso de empanizado, evitando que se te desmoronen).</li>
+                            <li>Coloca en un plato harina de trigo, en otro los huevos y en otro el pan rallado, procede a empanizar de la siguiente manera; pasa las croquetas primero por la harina, luego por los huevos y por último por el pan, así hasta terminar con todas.</li>
+                            <li>En una freidora, caldero o sartén con suficiente aceite, procede a freír tus croquetas, cuando tomen un bonito color dorado, retíralas y escúrrelas en  papel secante (también las puedes hacer al horno, pero tardarán un poco más).</li>
+                            <li>Coloca tus croquetas en una linda bandeja, decora a tu gusto y disfrútalas con todos tus amigos, también las puedes acompañar con una salsa de tomate, salsa tártara, mayonesa casera, etc.</li>
+                          </ol>
+                        </div>  
+                      </div>
+                    </div>
+                </div>
+
+                <!----------------------------------------------------------->
+
+                <div class='imgs-container m-2'>
+                    <div class='receta-container'>
+                        <a href="" data-toggle="modal" data-target="#aderezoPerejilModal">
+                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/Aderezo-de-Perejil.jpg"/>
+                            <div class="overlay">
+                                <div class="texto-overlay">
+                                    <p>Aderezo de Perejil</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal" id="aderezoPerejilModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title">Aderezo de Perejil</h3>
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                          <h5>Ingredientes:</h5>
+                            <ul>
+                                <li>Perejil</li>
+                                <li>Vinagre</li>
+                                <li>Ajo</li>
+                                <li>Aceite de oliva</li>
+                                <li>Sal</li>
+                            </ul>
+                          <hr>
+                          <h5>Preparacion:</h5>
+                          <ol>
+                            <li>Pela el ajo y lávalo, al igual que el perejil, deberás lavarlo muy bien.</li>
+                            <li>Vierte todos los ingredientes en la licuadora.</li>
+                            <li>Licua por el tiempo suficiente hasta obtener una mezcla homogénea.</li>
+                            <li>Prueba para determinar si necesita sal o un poco de cualquier ingrediente.</li>
+                            <li>Listo, tendrás un aderezo para cualquier plato con carnes. </li>
+                          </ol>
+                        </div>  
+                      </div>
+                    </div>
+                </div>
+
+                <!----------------------------------------------------------->
+
+                <div class='imgs-container m-2'>
+                    <div class='receta-container'>
+                        <a href="" data-toggle="modal" data-target="#crepesModal">
+                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/crepes-mediterraneos.png"/>
+                            <div class="overlay">
+                                <div class="texto-overlay">
+                                    <p>Crepes Mediterráneos</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal" id="crepesModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title">Crepes Mediterráneos</h3>
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Ingredientes:</h5>
+                            <ul>
+                                <li>250 grs Harina.</li>
+                                <li>2 Huevos.</li>
+                                <li>4 cucharadas Ketchup.</li>
+                                <li>500 cc Leche.</li>
+                                <li>100 grs Jamón crudo.</li>
+                                <li>200 grs Queso mozzarella.</li>
+                                <li>50 cc Crema de leche.</li>
+                                <li>20 grs Manteca.</li>
+                                <li>100 grs Champiñones.</li>
+                                <li>1 paquete de rúcula.</li>
+                            </ul>
+                            <hr>
+                            <h5>Preparacion:</h5>
+                            <ol>
+                              <li>En un bol vas a mezclar los huevos con el ketchup, la harina y en último lugar la leche. Llevalo 1 hora a la heladera.</li>
+                              <li>En una sartén agregá la manteca y comenzá a hacer los crepes.</li>
+                              <li>Para el relleno picá el queso, el jamón y la rúcula.</li>
+                              <li>Luego de rellenarlos vamos a preparar la salsa. Salteamos los champiñones en una sartén y luego incorporamos la crema de leche. Dejamos que se cocine hasta que espese.</li>
+                              <li>Le agregamos la salsa por encima a los crepes y ¡a disfrutar de este plato!</li>
+                            </ol>
+                        </div>  
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        <div class="d-flex flex-row m-3 justify-content-center">
+
+            <div class='imgs-container m-2'>
+                <div class='receta-container'>
+                    <a href="" data-toggle="modal" data-target="#fondueQuesoModal">
+                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/fondue-de-queso.png"/>
+                        <div class="overlay">
+                            <div class="texto-overlay">
+                                <p>Fondue de Queso</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal" id="fondueQuesoModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title">Fondue de Queso</h3>
+                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5>Ingredientes:</h5>
+                        <ul>
+                            <li>2 vasos de vino blanco</li>
+                            <li>400 gr Queso Gruyere</li>
+                            <li>400 gr Queso Colonia</li>
+                            <li>2 cucharadas de jugo de limón</li>
+                            <li>2 cucharadas de maicena</li>
+                            <li>4 cucharadas de agua ardiente</li>
+                            <li>Media cucharadita de nuez moscada</li>
+                            <li>1 diente de ajo</li>
+                            <li>Pimienta</li>
+                            <li>Pan y los acompañamientos que desees servir</li>
+                        </ul>
+                    
+                        <hr>
+                        <h5>Preparacion:</h5>
+                        <ol>
+                            <li>En primer lugar vamos a frotar el ajo en la olla que vas a utilizar para el fondue.</li>
+                            <li>Luego incorpora el vino blanco y el jugo de limón y enciende el quemador, dejando que se caliente pero que no llegue a hervir.</li>
+                            <li>En una taza mezclá la maicena con un poco de vino. Bajá el fuego y colocalo a la mezcla, revolviendo constantemente.</li>
+                            <li>Cortá el queso y seguí revolviendo.</li>
+                            <li>Por último, agregar la nuez moscada y pimienta.</li>
+                            <li>Recordá que si la mezcla te queda muy espesa, agregale vino y al contrario, agregale más queso.</li>
+                        </ol>                        
+                    </div>  
+                  </div>
+                </div>
+            </div>
+
+            <!----------------------------------------------------------->
+
+            <div class='imgs-container m-2'>
+                <div class='receta-container'>
+                    <a href="" data-toggle="modal" data-target="#arosCebollaModal">
+                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/aros-de-cebolla.png"/>
+                        <div class="overlay">
+                            <div class="texto-overlay">
+                                <p>Aros de Cebolla</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal" id="arosCebollaModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title">Aros de Cebolla</h3>
+                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5>Ingredientes:</h5>
+                        <ul>
+                            <li>2 cebollas medianas</li>
+                            <li>200g de harina de trigo normal</li>
+                            <li>1 huevo</li>
+                            <li>200 ml de cerveza fría</li>
+                            <li>1 cucharadita de sal</li>
+                            <li>Aceite</li>
+                        </ul>
+                        <hr>
+                        <h5>Preparacion:</h5>
+                        <ol>
+                            <li>Primero debes cortar la cebolla en rodajas de aproximadamente 1 cm de grosor, dejando de lado la cáscara y la primera capa porque son duras.</li>
+                            <li>Luego, en un bol, agrega la harina de trigo, la sal, el huevo y la cerveza, mezcla todo sin que queden grumos. La masa debe quedar líquida, pero es importante que se pegue un poco al tenedor.</li>
+                            <li>Ahora vas a incorporar cada aro de cebolla en la mezcla para después freírlos.</li>
+                            <li>Fríelos a fuego lento durante aproximadamente 30 segundos cada aro. Ten en cuenta que debido a la cerveza, la masa de los aros va a crecer durante la fritura.</li>
+                            <li>Por último, solo necesitas añadirlos a un papel para que desprendan el aceite.</li>
+                        </ol>
+                    </div>  
+                  </div>
+                </div>
+            </div>
+
+            <!----------------------------------------------------------->
+
+            <div class='imgs-container m-2'>
+                <div class='receta-container'>
+                    <a href="" data-toggle="modal" data-target="#hummusModal">
+                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/hummus.jpg"/>
+                        <div class="overlay">
+                            <div class="texto-overlay">
+                                <p>Hummus</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal" id="hummusModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title">Hummus</h3>
+                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5>Ingredientes:</h5>
+                        <ul>
+                            <li>250 gr de Garbanzos previamente cocidos</li>
+                            <li>Zumo de limón</li>
+                            <li>1 cucharada de Tahini</li>
+                            <li>1 cucharada de Aceite de oliva (extra virgen)</li>
+                            <li>1 cucharada de Yogur natural, preferiblemente sin azúcar (opcional)</li>
+                            <li>1 cucharadita de Sal</li>
+                            <li>1 Ajo</li>
+                            <li>Agua</li>
+                        </ul>
+                        <hr>
+                        <h5>Preparacion:</h5>
+                        <ol>
+                            <li>Coloca todos los ingredientes dentro de un bol o recipiente.</li>
+                            <li>Tritura todo con una batidora.</li>
+                            <li>Si la mezcla se espesa demasiado, añade agua poco a poco, pero sin excederte para que no quede muy líquida.</li>
+                            <li>Corrige la sal hasta que quede en su punto.</li>
+                            <li>El yogur es opcional, pero se usa para blanquear la mezcla si es necesario, ya que puede quedar demasiado oscura para algunos comensales.</li>
+                            <li>Una vez listo el puré, colócalo en un plato llano y extiéndelo a lo largo y ancho de este.</li>
+                        </ol>                        
+                    </div>  
+                  </div>
+                </div>
+            </div>
+
+            <!----------------------------------------------------------->
+
+            <div class='imgs-container m-2'>
+                <div class='receta-container'>
+                    <a href="" data-toggle="modal" data-target="#Modal">
+                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/aperitivos/Rollitos-de-Queso-Crema.jpg"/>
+                        <div class="overlay">
+                            <div class="texto-overlay">
+                                <p>Rollitos de Queso Crema</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal" id="Modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title">Rollitos de Queso Crema</h3>
+                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5>Ingredientes:</h5>
+                        <ul>
+                            <li>Tapas para quesadillas (rapiditas)</li>
+                            <li>250 grs de Queso Crema</li>
+                            <li>200 grs de jamón</li>
+                            <li>2 tazas de hojas de albahaca</li>
+                        </ul>
+                        
+                        <hr>
+                        <h5>Preparacion:</h5>
+                        <ol>
+                            <li>Calentamos un poco las tapas para quesadillas (rapiditas) para evitar que se rompan al doblarlas.</li>
+                            <li>Colocamos el jamón sobre las tapas.</li>
+                            <li>Cortamos la albahaca y la mezclamos con el queso crema.</li>
+                            <li>Untamos la mezcla de queso crema y albahaca por toda la tapa.</li>
+                            <li>Hacemos rollitos con las tapas rellenas.</li>
+                            <li>Colocamos un pincho en el centro de cada rollito para que no se desarmen.</li>
+                        </ol>
+                        
+                    </div>  
+                  </div>
+                </div>
+            </div>
+             
+        </div>
+
+
+
+
+
+
+        </div>
+    
+    </main>
+
+
+</body>
+</html>
