@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carnes Rojas</title>
-    <link rel="icon" href="imagenes/recipe-icon.png" type="image/png">
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carnes Rojas</title>
+  <link rel="icon" href="imagenes/recipe-icon.png" type="image/png">
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
 </head>
+
 <body>
 
   <head>
-    
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -30,8 +35,8 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="container navbar-nav mx-auto d-flex justify-content-evenly" "> 
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="entradas.html">Entradas</a>
+            <li class=" nav-item">
+            <a class="nav-link active" aria-current="page" href="entradas.html">Entradas</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -58,466 +63,667 @@
         </div>
       </div>
     </nav>
-    
 
   </head>
 
-    <main class="background">
-
-        <div class="d-flex justify-content-center p-5">
-            <h1 class="bg-white">Carnes Rojas</h1>
-        </div>
-
-        <div>
-          <div class="d-flex flex-row flex-wrap justify-content-center container">
-
-                <div class='imgs-container m-2'>
-                    <div class='receta-container'>
-                        <a href="" data-toggle="modal" data-target="#bifeMostazaModal">
-                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/bife-a-la-mostaza.png"/>
-                            <div class="overlay">
-                                <div class="texto-overlay">
-                                    <p>Bife a la Mostaza</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+  <main class="background">
+    <div class="d-flex justify-content-center p-5">
+      <h1 class="bg-white">Carnes Rojas</h1>
+    </div>
+    <div>
+      <div class="d-flex flex-row flex-wrap justify-content-center container">
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#bifeMostazaModal">
+              <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/bife-a-la-mostaza.png" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Bife a la Mostaza</p>
                 </div>
-
-                <div class="modal" id="bifeMostazaModal">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h3 class="modal-title">Bife a la Mostaza</h3>
-                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                          <h5>Ingredientes:</h5>
-                          <ul>
-                            <li>4 Bifes de carne.</li>
-                            <li>Pimienta en granos a gusto.</li>
-                            <li>Aceite de oliva.</li>
-                            <li>1 cucharada de Vinagre de vino.</li>
-                            <li>2 cucharadas de Salsa de tomate.</li>
-                            <li>1 cucharada de Mostaza.</li>
-                        </ul>
-                        
-                          <hr>
-                          <h5>Preparacion:</h5>
-                          <ol>
-                            <li>En primer lugar, vamos a mezclar la mostaza, la salsa de tomate, el vinagre y la pimienta. Untamos un lado de los bifes con esta mezcla.</li>
-                            <li>En una plancha o sartén, cocinamos los bifes a fuego fuerte durante 15 minutos de cada lado, hasta que estén dorados.</li>
-                            <li>Servimos los bifes con ensalada verde, de papas o lo que desees y agregamos más de esta deliciosa salsa.</li>
-                        </ol>
-                        
-                        </div>  
-                      </div>
-                    </div>
-                </div>
-
-                <!----------------------------------------------------------->
-
-                <div class='imgs-container m-2'>
-                    <div class='receta-container'>
-                        <a href="" data-toggle="modal" data-target="#hamburguesaCaseraModal">
-                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/hamburguesas-caseras.png"/>
-                            <div class="overlay">
-                                <div class="texto-overlay">
-                                    <p>Hamburguesas Caseras</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="modal" id="hamburguesaCaseraModal">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h3 class="modal-title">Hamburguesas Caseras</h3>
-                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                          <h5>Ingredientes:</h5>
-                          <ul>
-                            <li>500 g de carne picada</li>
-                            <li>1 yema de huevo</li>
-                            <li>4 hojas de perejil</li>
-                            <li>1 cucharadita de sal y pimienta</li>
-                            <li>1 cucharada de jugo de limón</li>
-                            <li>1/2 cucharadita de aceite de oliva</li>
-                          </ul>
-                          <hr>
-                          <h5>Preparacion:</h5>
-                          <ol>
-                            <li>En primer lugar, incorporamos en un bol grande la carne picada, un poco de sal y pimienta, el jugo de limón, el perejil previamente lavado y picado, y por último, la yema de un huevo.</li>
-                            <li>Mezclamos todo y comenzamos a hacer bolitas, aplastándolas con la mano y colocándolas en una bandeja.</li>
-                            <li>Luego, elegimos una sartén y con un poco de aceite comenzamos a asar las hamburguesas de ambos lados, aproximadamente de 3 a 5 minutos cada lado.</li>
-                          </ol>
-                        </div>  
-                      </div>
-                    </div>
-                </div>
-
-                <!----------------------------------------------------------->
-
-                <div class='imgs-container m-2'>
-                    <div class='receta-container'>
-                        <a href="" data-toggle="modal" data-target="#bueyBorgononaModal">
-                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/Buey-a-la-Borgonona.jpg"/>
-                            <div class="overlay">
-                                <div class="texto-overlay">
-                                    <p>Buey a la Borgoñona</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="modal" id="bueyBorgononaModal">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h3 class="modal-title">Buey a la Borgoñona</h3>
-                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                          <h5>Ingredientes:</h5>
-                          <ul>
-                            <li>1 kg de carne de buey</li>
-                            <li>500 g de papas</li>
-                            <li>1 manojo de perejil</li>
-                            <li>50 cl de vino tinto Bourgogne</li>
-                            <li>400 ml de caldo de carne</li>
-                            <li>30 g de harina</li>
-                            <li>1 zanahoria</li>
-                            <li>200 g de champiñones</li>
-                            <li>3 cucharadas de aceite de oliva</li>
-                            <li>30 g de manteca</li>
-                            <li>2 dientes de ajo</li>
-                            <li>1 cebolla pequeña picada</li>
-                            <li>20 cebollitas francesas</li>
-                            <li>150 g de panceta</li>
-                            <li>1 hueso de ternera</li>
-                            <li>Sal y pimienta al gusto</li>
-                        </ul>
-                        
-                          <hr>
-                          <h5>Preparacion:</h5>
-                          <ol>
-                            <li>En una sartén, calentamos 3 cucharadas de aceite y doramos la carne de buey de ambos lados. Una vez dorada, escurrimos la carne y reservamos. Esto debe tomar unos segundos.</li>
-                            <li>En la misma sartén, salteamos la zanahoria y la cebolla picada hasta que estén doradas. Luego, llevamos al horno junto con la carne. Condimentamos con sal y pimienta al gusto y espolvoreamos con harina. Volvemos a dar vuelta y vuelta a la carne hasta que la harina forme una especie de "costra" alrededor de la carne. Este proceso no debe tomar más de 10 minutos en total. Ten en cuenta que todo se cocinará más adelante.</li>
-                            <li>Colocamos el vino tinto Bourgogne, el caldo de carne, los dientes de ajo picados, el tomillo y el perejil en la sartén. Cocinamos todo en el horno a fuego bajo durante aproximadamente 2 horas, o hasta que la carne esté muy tierna. Asegúrate de que el horno esté a baja temperatura.</li>
-                            <li>Mientras se cocina la carne, preparamos las cebollitas francesas.</li>
-                            <li>En una sartén grande, calentamos la manteca y añadimos las cebollitas peladas y enteras. Cocinamos durante unos 10 minutos, o hasta que estén doradas.</li>
-                            <li>Luego, agregamos 1 taza de caldo, condimentamos al gusto con tus ingredientes favoritos, los champiñones y la panceta picada. Cubrimos la sartén y cocinamos a fuego lento durante 40 minutos, o hasta que las cebollas estén tiernas y el caldo se haya evaporado.</li>
-                            <li>Cuando la carne esté cocida, agregamos las cebollitas francesas con la panceta a la mezcla, condimentamos con sal y servimos.</li>
-                          </ol>                        
-                        </div>  
-                      </div>
-                    </div>
-                </div>
-
-                <!----------------------------------------------------------->
-
-                <div class='imgs-container m-2'>
-                    <div class='receta-container'>
-                        <a href="" data-toggle="modal" data-target="#albondigasRellenasModal">
-                            <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/albondigas-rellenas.png"/>
-                            <div class="overlay">
-                                <div class="texto-overlay">
-                                    <p>Albóndigas Rellenas de Queso</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="modal" id="albondigasRellenasModal">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h3 class="modal-title">Albóndigas Rellenas de Queso</h3>
-                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            <h5>Ingredientes:</h5>
-                            <ul>
-                              <li>250 gramos de carne picada</li>
-                              <li>100 gramos de queso mozzarella o dambo</li>
-                              <li>1 diente de ajo</li>
-                              <li>80 gramos de manteca</li>
-                              <li>1 pizca de tomillo seco</li>
-                              <li>1 limón</li>
-                              <li>1 chorro de aceite</li>
-                              <li>1 pizca de sal</li>
-                              <li>1 pizca de pimienta</li>
-                            </ul>
-                            <hr>
-                            <h5>Preparacion:</h5>
-                            <ol>
-                              <li>Comenzamos condimentando la carne con sal y pimienta. Mezclamos todo muy bien.</li>
-                              <li>Tomamos pequeñas porciones de carne, formamos hamburguesas y colocamos un cubito de queso en el centro de cada una. Cerramos bien para que el queso quede en el interior y le damos forma de bola uniforme.</li>
-                              <li>En una sartén, calentamos un chorrito de aceite y sellamos las albóndigas durante un breve período de tiempo.</li>
-                              <li>Luego, llevamos las albóndigas al horno precalentado a temperatura media y las horneamos durante aproximadamente 20 minutos.</li>
-                              <li>En la misma sartén, colocamos la manteca y la derretimos a fuego lento. Añadimos el ajo picado en trozos pequeños y cocinamos durante 2 minutos.</li>
-                              <li>Apagamos el fuego y agregamos el jugo de limón y el tomillo. Mezclamos todo muy bien para preparar la manteca aromatizada.</li>
-                              <li>Una vez que las albóndigas estén listas, las servimos y las bañamos con la manteca aromatizada. Puedes acompañarlas con arroz blanco, papas al natural o una rica ensalada.</li>
-                            </ol> 
-                        </div>  
-                      </div>
-                    </div>
-                </div>
-
-
-
-            <div class='imgs-container m-2'>
-                <div class='receta-container'>
-                    <a href="" data-toggle="modal" data-target="#croquetasCarneModal">
-                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/croquetas-de-carne.jpg"/>
-                        <div class="overlay">
-                            <div class="texto-overlay">
-                                <p>Croquetas de Carne</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="modal" id="croquetasCarneModal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="modal-title">Croquetas de Carne</h3>
-                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <h5>Ingredientes:</h5>
-                        <ul>
-                          <li>150 g de carne picada</li>
-                          <li>30 g de manteca</li>
-                          <li>50 g de harina</li>
-                          <li>1/2 litro de leche</li>
-                          <li>Sal y pimienta</li>
-                          <li>Caldo de carne</li>
-                          <li>Aceite de oliva</li>
-                          <li>2 huevos</li>
-                          <li>Pan rallado</li>
-                        </ul>
-                      
-                        <hr>
-                        <h5>Preparacion:</h5>
-                        <ol>
-                          <li>Lo primero que hay que hacer es freír la carne en dos cucharadas de aceite. Cuando la carne haya cambiado de color, condimentamos a gusto y agregamos la manteca y la harina. Revolvemos muy bien hasta que todo quede bien unido.</li>
-                          <li>Continuamos cocinando por 2 minutos. Pasado este tiempo, agregamos un chorrito de leche. La idea es agregar la leche muy despacio para que no se formen grumos con la harina.</li>
-                          <li>Lo que hemos hecho es una bechamel, y la dejamos cocinar con todo por unos 20 minutos. A continuación, agregamos un poco de caldo de carne (opcional) en un chorrito para dar más sabor. Cocinamos todo por 2 minutos más y apagamos el fuego.</li>
-                          <li>Cuando todo esté completamente frío, formamos las croquetas y las pasamos por 2 huevos batidos y pan rallado.</li>
-                          <li>Una vez hechas todas las croquetas, las freímos o las horneamos según tu preferencia.</li>
-                      </ol>                                          
-                    </div>  
-                  </div>
-                </div>
-            </div>
-
-            <!----------------------------------------------------------->
-
-            <div class='imgs-container m-2'>
-                <div class='receta-container'>
-                    <a href="" data-toggle="modal" data-target="#terneraProvenzalModal">
-                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/ternera-a-la-provenzal.jpg"/>
-                        <div class="overlay">
-                            <div class="texto-overlay">
-                                <p>Ternera a la Provenzal</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="modal" id="terneraProvenzalModal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="modal-title">Ternera a la Provenzal</h3>
-                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <h5>Ingredientes:</h5>
-                        <ul>
-                          <li>700 gr de ternera</li>
-                          <li>1 cebolla</li>
-                          <li>3 dientes de ajo</li>
-                          <li>4 zanahorias</li>
-                          <li>1 taza de porotos</li>
-                          <li>400 gr de tomate natural triturado</li>
-                          <li>1 vasito de vino blanco</li>
-                          <li>1 vaso de agua</li>
-                          <li>Sal</li>
-                          <li>Pimienta negra</li>
-                          <li>2 o 3 papas</li>
-                          <li>Aceite de oliva</li>
-                        </ul>
-                      
-                        <hr>
-                        <h5>Preparacion:</h5>
-                        <ol>
-                          <li>Es importante que la carne no contenga grasa y sea bien tierna. Córtala en pequeños cubos para bocado y salpiméntala a gusto. Luego, dora la carne en una sartén. Cuando esté cocida, sácala y resérvala.</li>
-                          <li>En la misma sartén, saltea la cebolla bien cortada junto con los ajos y las zanahorias cortadas en rodajas. Deja que se cocinen durante unos 3 minutos.</li>
-                          <li>A continuación, agrega los porotos que previamente remojaste durante la noche y el tomate triturado. Deja que todo se cocine por unos minutos.</li>
-                          <li>Pasados los 10 minutos, vuelve a colocar la carne en la sartén y añade el vino blanco y el agua. Puedes agregar un poco de romero o laurel si lo deseas. Cocina todo junto durante aproximadamente 40 minutos. Si utilizas una olla a presión, el tiempo de cocción puede ser de unos 20 minutos.</li>
-                          <li>Agrega las papas cortadas en cubos y deja cocinar durante el tiempo especificado.</li>
-                        </ol>
-                    </div>  
-                  </div>
-                </div>
-            </div>
-
-            <!----------------------------------------------------------->
-
-            <div class='imgs-container m-2'>
-                <div class='receta-container'>
-                    <a href="" data-toggle="modal" data-target="#quesadillaMexicanaModal">
-                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/quesadilla-mexicana.jpg"/>
-                        <div class="overlay">
-                            <div class="texto-overlay">
-                                <p>Quesadillas Mexicanas</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="modal" id="quesadillaMexicanaModal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="modal-title">Quesadillas Mexicanas</h3>
-                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <h5>Ingredientes:</h5>
-                        <ul>
-                          <li>Tapas para quesadillas</li>
-                          <li>400 gramos de carne picada</li>
-                          <li>Salsa de tomate</li>
-                          <li>200 gramos de queso mozzarella</li>
-                          <li>Aceite de oliva</li>
-                          <li>Sal</li>
-                        </ul>
-                      
-                        <hr>
-                        <h5>Preparacion:</h5>
-                        <ol>
-                          <li>En una sartén, coloca un chorrito de aceite y agrega la carne picada. También puedes utilizar otro tipo de carne como pollo, ternera o cerdo, según tu preferencia.</li>
-                          <li>Cuando la carne comience a dorarse, sazónala con sal y añade la salsa de tomate. Debe ser un chorrito de salsa de tomate para dar sabor. Si lo deseas, puedes agregar otros condimentos como huevo, cebolla, o lo que prefieras.</li>
-                          <li>Mientras cocinas la carne, en otra sartén antiadherente, coloca las tapas para quesadillas y cocínalas de ambos lados.</li>
-                          <li>Para armar las quesadillas, coloca una generosa cantidad de queso mozzarella en un lado de las tapas, luego agrega la carne y dóblalas por la mitad.</li>
-                          <li>Cocina las quesadillas dobladas de un lado y del otro hasta que el queso se derrita y se gratine.</li>
-                        </ol>
-                                              
-                    </div>  
-                  </div>
-                </div>
-            </div>
-
-            <!----------------------------------------------------------->
-
-            <div class='imgs-container m-2'>
-                <div class='receta-container'>
-                    <a href="" data-toggle="modal" data-target="#Modal">
-                        <img class='rounded-4 zoom-img' width="400" height="400" src="imagenes/carneRoja/receta-de-estofado.jpg"/>
-                        <div class="overlay">
-                            <div class="texto-overlay">
-                                <p>Estofado de Lengua</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="modal" id="Modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="modal-title">Estofado de Lengua</h3>
-                      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <h5>Ingredientes:</h5>
-                        <ul>
-                          <li>1 Lengua de res</li>
-                          <li>1 limón</li>
-                          <li>5 tazas de Agua</li>
-                          <li>1 diente de Ajo</li>
-                          <li>3 cebollas</li>
-                          <li>½ morrón verde</li>
-                          <li>½ morrón rojo</li>
-                          <li>2 dientes de ajo machacados</li>
-                          <li>2 cucharaditas de Sal</li>
-                          <li>1 taza de salsa de tomate</li>
-                          <li>½ cucharadita de Pimienta negra</li>
-                          <li>0,3 taza de Aceite</li>
-                          <li>1 taza de caldo de carne</li>
-                          <li>½ taza de Vino dulce</li>
-                          <li>Arvejas a gusto</li>
-                          <li>Aceitunas a gusto</li>
-                          <li>¼ taza de Pasas</li>
-                          <li>2 cucharadas de ketchup</li>
-                          <li>Sal a gusto</li>
-                      </ul>
-                      
-                        
-                        <hr>
-                        <h5>Preparacion:</h5>
-                        <ol>
-                          <li>Es importante tener todos los ingredientes cortados adecuadamente antes de comenzar la receta.</li>
-                          <li>Lo primero es condimentar la lengua. Para ello, frota medio limón sobre la lengua y sazona a gusto con sal y pimienta. Luego, cocina la lengua en abundante agua hasta que esté tierna.</li>
-                          <li>Una vez que la lengua esté cocida, apaga el fuego y deja enfriar antes de abrir la olla. Después, quita la piel de la lengua y desecha el agua utilizada.</li>
-                          <li>Luego, vuelve a cocinar la lengua con 5 tazas de agua, la cebolla, el ajo, el apio, los morrones y los condimentos mencionados. Deja que todo hierva durante 40 minutos y luego deja enfriar.</li>
-                          <li>Prepara la salsa triturando la salsa de tomate con un poco de morrón, cebolla y ajo. Sofríe la mezcla y luego agrega el caldo. Cocina por 10 minutos y añade el vino, las arvejas, las aceitunas, las pasas y el ketchup. Sazona a gusto y cocina todo por 5 minutos adicionales.</li>
-                          <li>Sirve la lengua con la salsa caliente.</li>
-                       </ol>
-                    </div>  
-                  </div>
-                </div>
-            </div>
-             
-        </div>
-
-        </div>
-    
-    </main>
-
-    <footer class="bg-secondary">
-      <div class="container text-light">
-        <div class="d-flex row justify-content-between pt-3 pb-3">
-          <div class="col-md-4 d-flex justify-content-center">
-            <a href="index.html">
-              <img class="icon-footer" src="imagenes/recipe-icon.png" alt="">
+              </div>
             </a>
           </div>
-          <div class="col-md-4 d-flex justify-content-center align-items-end">
-            <p>&copy; Todos los derechos reservados</p>
-          </div>
-          <div class="col-md-4 d-flex justify-content-evenly align-items-center">
-            <a class="text-white" href="https://www.facebook.com"><i class="bi bi-facebook fs-3"></i></a>
-            <a class="text-white" href="https://www.instagram.com"><i class="bi bi-instagram fs-3"></i></a>
-            <a class="text-white" href="https://www.twitter.com"><i class="bi bi-twitter fs-3"></i></a>
-            <a class="text-white" href="https://www.tiktok.com"><i class="bi bi-tiktok fs-3"></i></a>
+        </div>
+        <div class="modal" id="bifeMostazaModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Bife a la Mostaza</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>4 Bifes de carne.</li>
+                  <li>Pimienta en granos a gusto.</li>
+                  <li>Aceite de oliva.</li>
+                  <li>1 cucharada de Vinagre de vino.</li>
+                  <li>2 cucharadas de Salsa de tomate.</li>
+                  <li>1 cucharada de Mostaza.</li>
+                </ul>
+
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>En primer lugar, vamos a mezclar la mostaza, la salsa de tomate, el vinagre y la pimienta. Untamos
+                    un lado de los bifes con esta mezcla.</li>
+                  <li>En una plancha o sartén, cocinamos los bifes a fuego fuerte durante 15 minutos de cada lado, hasta
+                    que estén dorados.</li>
+                  <li>Servimos los bifes con ensalada verde, de papas o lo que desees y agregamos más de esta deliciosa
+                    salsa.</li>
+                </ol>
+
+              </div>
+            </div>
           </div>
         </div>
-        
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#hamburguesaCaseraModal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/hamburguesas-caseras.png" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Hamburguesas Caseras</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="hamburguesaCaseraModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Hamburguesas Caseras</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>500 g de carne picada</li>
+                  <li>1 yema de huevo</li>
+                  <li>4 hojas de perejil</li>
+                  <li>1 cucharadita de sal y pimienta</li>
+                  <li>1 cucharada de jugo de limón</li>
+                  <li>1/2 cucharadita de aceite de oliva</li>
+                </ul>
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>En primer lugar, incorporamos en un bol grande la carne picada, un poco de sal y pimienta, el jugo
+                    de limón, el perejil previamente lavado y picado, y por último, la yema de un huevo.</li>
+                  <li>Mezclamos todo y comenzamos a hacer bolitas, aplastándolas con la mano y colocándolas en una
+                    bandeja.</li>
+                  <li>Luego, elegimos una sartén y con un poco de aceite comenzamos a asar las hamburguesas de ambos
+                    lados, aproximadamente de 3 a 5 minutos cada lado.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#bueyBorgononaModal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/Buey-a-la-Borgonona.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Buey a la Borgoñona</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="bueyBorgononaModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Buey a la Borgoñona</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>1 kg de carne de buey</li>
+                  <li>500 g de papas</li>
+                  <li>1 manojo de perejil</li>
+                  <li>50 cl de vino tinto Bourgogne</li>
+                  <li>400 ml de caldo de carne</li>
+                  <li>30 g de harina</li>
+                  <li>1 zanahoria</li>
+                  <li>200 g de champiñones</li>
+                  <li>3 cucharadas de aceite de oliva</li>
+                  <li>30 g de manteca</li>
+                  <li>2 dientes de ajo</li>
+                  <li>1 cebolla pequeña picada</li>
+                  <li>20 cebollitas francesas</li>
+                  <li>150 g de panceta</li>
+                  <li>1 hueso de ternera</li>
+                  <li>Sal y pimienta al gusto</li>
+                </ul>
+
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>En una sartén, calentamos 3 cucharadas de aceite y doramos la carne de buey de ambos lados. Una
+                    vez dorada, escurrimos la carne y reservamos. Esto debe tomar unos segundos.</li>
+                  <li>En la misma sartén, salteamos la zanahoria y la cebolla picada hasta que estén doradas. Luego,
+                    llevamos al horno junto con la carne. Condimentamos con sal y pimienta al gusto y espolvoreamos con
+                    harina. Volvemos a dar vuelta y vuelta a la carne hasta que la harina forme una especie de "costra"
+                    alrededor de la carne. Este proceso no debe tomar más de 10 minutos en total. Ten en cuenta que todo
+                    se cocinará más adelante.</li>
+                  <li>Colocamos el vino tinto Bourgogne, el caldo de carne, los dientes de ajo picados, el tomillo y el
+                    perejil en la sartén. Cocinamos todo en el horno a fuego bajo durante aproximadamente 2 horas, o
+                    hasta que la carne esté muy tierna. Asegúrate de que el horno esté a baja temperatura.</li>
+                  <li>Mientras se cocina la carne, preparamos las cebollitas francesas.</li>
+                  <li>En una sartén grande, calentamos la manteca y añadimos las cebollitas peladas y enteras. Cocinamos
+                    durante unos 10 minutos, o hasta que estén doradas.</li>
+                  <li>Luego, agregamos 1 taza de caldo, condimentamos al gusto con tus ingredientes favoritos, los
+                    champiñones y la panceta picada. Cubrimos la sartén y cocinamos a fuego lento durante 40 minutos, o
+                    hasta que las cebollas estén tiernas y el caldo se haya evaporado.</li>
+                  <li>Cuando la carne esté cocida, agregamos las cebollitas francesas con la panceta a la mezcla,
+                    condimentamos con sal y servimos.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#albondigasRellenasModal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/albondigas-rellenas.png" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Albóndigas Rellenas de Queso</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="albondigasRellenasModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Albóndigas Rellenas de Queso</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>250 gramos de carne picada</li>
+                  <li>100 gramos de queso mozzarella o dambo</li>
+                  <li>1 diente de ajo</li>
+                  <li>80 gramos de manteca</li>
+                  <li>1 pizca de tomillo seco</li>
+                  <li>1 limón</li>
+                  <li>1 chorro de aceite</li>
+                  <li>1 pizca de sal</li>
+                  <li>1 pizca de pimienta</li>
+                </ul>
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>Comenzamos condimentando la carne con sal y pimienta. Mezclamos todo muy bien.</li>
+                  <li>Tomamos pequeñas porciones de carne, formamos hamburguesas y colocamos un cubito de queso en el
+                    centro de cada una. Cerramos bien para que el queso quede en el interior y le damos forma de bola
+                    uniforme.</li>
+                  <li>En una sartén, calentamos un chorrito de aceite y sellamos las albóndigas durante un breve período
+                    de tiempo.</li>
+                  <li>Luego, llevamos las albóndigas al horno precalentado a temperatura media y las horneamos durante
+                    aproximadamente 20 minutos.</li>
+                  <li>En la misma sartén, colocamos la manteca y la derretimos a fuego lento. Añadimos el ajo picado en
+                    trozos pequeños y cocinamos durante 2 minutos.</li>
+                  <li>Apagamos el fuego y agregamos el jugo de limón y el tomillo. Mezclamos todo muy bien para preparar
+                    la manteca aromatizada.</li>
+                  <li>Una vez que las albóndigas estén listas, las servimos y las bañamos con la manteca aromatizada.
+                    Puedes acompañarlas con arroz blanco, papas al natural o una rica ensalada.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#croquetasCarneModal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/croquetas-de-carne.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Croquetas de Carne</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="croquetasCarneModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Croquetas de Carne</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>150 g de carne picada</li>
+                  <li>30 g de manteca</li>
+                  <li>50 g de harina</li>
+                  <li>1/2 litro de leche</li>
+                  <li>Sal y pimienta</li>
+                  <li>Caldo de carne</li>
+                  <li>Aceite de oliva</li>
+                  <li>2 huevos</li>
+                  <li>Pan rallado</li>
+                </ul>
+
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>Lo primero que hay que hacer es freír la carne en dos cucharadas de aceite. Cuando la carne haya
+                    cambiado de color, condimentamos a gusto y agregamos la manteca y la harina. Revolvemos muy bien
+                    hasta que todo quede bien unido.</li>
+                  <li>Continuamos cocinando por 2 minutos. Pasado este tiempo, agregamos un chorrito de leche. La idea
+                    es agregar la leche muy despacio para que no se formen grumos con la harina.</li>
+                  <li>Lo que hemos hecho es una bechamel, y la dejamos cocinar con todo por unos 20 minutos. A
+                    continuación, agregamos un poco de caldo de carne (opcional) en un chorrito para dar más sabor.
+                    Cocinamos todo por 2 minutos más y apagamos el fuego.</li>
+                  <li>Cuando todo esté completamente frío, formamos las croquetas y las pasamos por 2 huevos batidos y
+                    pan rallado.</li>
+                  <li>Una vez hechas todas las croquetas, las freímos o las horneamos según tu preferencia.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#terneraProvenzalModal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/ternera-a-la-provenzal.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Ternera a la Provenzal</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="terneraProvenzalModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Ternera a la Provenzal</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>700 gr de ternera</li>
+                  <li>1 cebolla</li>
+                  <li>3 dientes de ajo</li>
+                  <li>4 zanahorias</li>
+                  <li>1 taza de porotos</li>
+                  <li>400 gr de tomate natural triturado</li>
+                  <li>1 vasito de vino blanco</li>
+                  <li>1 vaso de agua</li>
+                  <li>Sal</li>
+                  <li>Pimienta negra</li>
+                  <li>2 o 3 papas</li>
+                  <li>Aceite de oliva</li>
+                </ul>
+
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>Es importante que la carne no contenga grasa y sea bien tierna. Córtala en pequeños cubos para
+                    bocado y salpiméntala a gusto. Luego, dora la carne en una sartén. Cuando esté cocida, sácala y
+                    resérvala.</li>
+                  <li>En la misma sartén, saltea la cebolla bien cortada junto con los ajos y las zanahorias cortadas en
+                    rodajas. Deja que se cocinen durante unos 3 minutos.</li>
+                  <li>A continuación, agrega los porotos que previamente remojaste durante la noche y el tomate
+                    triturado. Deja que todo se cocine por unos minutos.</li>
+                  <li>Pasados los 10 minutos, vuelve a colocar la carne en la sartén y añade el vino blanco y el agua.
+                    Puedes agregar un poco de romero o laurel si lo deseas. Cocina todo junto durante aproximadamente 40
+                    minutos. Si utilizas una olla a presión, el tiempo de cocción puede ser de unos 20 minutos.</li>
+                  <li>Agrega las papas cortadas en cubos y deja cocinar durante el tiempo especificado.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#quesadillaMexicanaModal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/quesadilla-mexicana.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Quesadillas Mexicanas</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="quesadillaMexicanaModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Quesadillas Mexicanas</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>Tapas para quesadillas</li>
+                  <li>400 gramos de carne picada</li>
+                  <li>Salsa de tomate</li>
+                  <li>200 gramos de queso mozzarella</li>
+                  <li>Aceite de oliva</li>
+                  <li>Sal</li>
+                </ul>
+
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>En una sartén, coloca un chorrito de aceite y agrega la carne picada. También puedes utilizar otro
+                    tipo de carne como pollo, ternera o cerdo, según tu preferencia.</li>
+                  <li>Cuando la carne comience a dorarse, sazónala con sal y añade la salsa de tomate. Debe ser un
+                    chorrito de salsa de tomate para dar sabor. Si lo deseas, puedes agregar otros condimentos como
+                    huevo, cebolla, o lo que prefieras.</li>
+                  <li>Mientras cocinas la carne, en otra sartén antiadherente, coloca las tapas para quesadillas y
+                    cocínalas de ambos lados.</li>
+                  <li>Para armar las quesadillas, coloca una generosa cantidad de queso mozzarella en un lado de las
+                    tapas, luego agrega la carne y dóblalas por la mitad.</li>
+                  <li>Cocina las quesadillas dobladas de un lado y del otro hasta que el queso se derrita y se gratine.
+                  </li>
+                </ol>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#Modal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/receta-de-estofado.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Estofado de Lengua</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="Modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Estofado de Lengua</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>1 Lengua de res</li>
+                  <li>1 limón</li>
+                  <li>5 tazas de Agua</li>
+                  <li>1 diente de Ajo</li>
+                  <li>3 cebollas</li>
+                  <li>½ morrón verde</li>
+                  <li>½ morrón rojo</li>
+                  <li>2 dientes de ajo machacados</li>
+                  <li>2 cucharaditas de Sal</li>
+                  <li>1 taza de salsa de tomate</li>
+                  <li>½ cucharadita de Pimienta negra</li>
+                  <li>0,3 taza de Aceite</li>
+                  <li>1 taza de caldo de carne</li>
+                  <li>½ taza de Vino dulce</li>
+                  <li>Arvejas a gusto</li>
+                  <li>Aceitunas a gusto</li>
+                  <li>¼ taza de Pasas</li>
+                  <li>2 cucharadas de ketchup</li>
+                  <li>Sal a gusto</li>
+                </ul>
+
+
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>Es importante tener todos los ingredientes cortados adecuadamente antes de comenzar la receta.
+                  </li>
+                  <li>Lo primero es condimentar la lengua. Para ello, frota medio limón sobre la lengua y sazona a gusto
+                    con sal y pimienta. Luego, cocina la lengua en abundante agua hasta que esté tierna.</li>
+                  <li>Una vez que la lengua esté cocida, apaga el fuego y deja enfriar antes de abrir la olla. Después,
+                    quita la piel de la lengua y desecha el agua utilizada.</li>
+                  <li>Luego, vuelve a cocinar la lengua con 5 tazas de agua, la cebolla, el ajo, el apio, los morrones y
+                    los condimentos mencionados. Deja que todo hierva durante 40 minutos y luego deja enfriar.</li>
+                  <li>Prepara la salsa triturando la salsa de tomate con un poco de morrón, cebolla y ajo. Sofríe la
+                    mezcla y luego agrega el caldo. Cocina por 10 minutos y añade el vino, las arvejas, las aceitunas,
+                    las pasas y el ketchup. Sazona a gusto y cocina todo por 5 minutos adicionales.</li>
+                  <li>Sirve la lengua con la salsa caliente.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#Modal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/Ternera-con-pimientos.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Ternera con Pimientos </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="Modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Ternera con Pimientos </h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>2 filetes grandes de ternera finos</li>
+                  <li>1 cebolla</li>
+                  <li>Aceite de oliva</li>
+                  <li>4 pimientos verdes</li>
+                  <li>Maicena</li>
+                  <li>Sal al gusto</li>
+                  <li>Maicena</li>
+                  <li>3 cucharadas de salsa de soja</li>
+                  <li>1 ramita de apio</li>
+                  <li>2 cucharadas de miel</li>
+                  <li>1 taza de caldo de verduras</li>
+                  <li>2 cucharadas de vino blanco</li>
+                </ul>
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>Salamos los filetes y los cubrimos de maicena por ambos lados. Una vez que la sal haya penetrado
+                    lo suficiente, cortamos los filetes en tiras del ancho de nuestro gusto.</li>
+                  <li>En una sartén, calentamos una gota de aceite de oliva y freímos las tiras de ternera hasta que se
+                    sellen por fuera, manteniendo la jugosidad por dentro. Luego, reservamos las tiras en papel
+                    absorbente.</li>
+                  <li>Continuamos picando la cebolla en trozos medianos/grandes y la salteamos en la misma sartén.
+                    Luego, reservamos la cebolla.</li>
+                  <li>Seguimos sofriendo los trozos de apio con un poco de maicena durante aproximadamente dos minutos.
+                    Mientras cocinan, añadimos la salsa de soja y la dejamos reducir durante dos o tres minutos, luego
+                    agregamos el vino, removiendo constantemente para evitar grumos.</li>
+                  <li>Añadimos el caldo y dejamos que la mezcla se cocine a fuego medio hasta que todo se reduzca y
+                    espese a nuestro gusto. Esta es una salsa de soja y verduras sencilla y saludable.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#Modal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/ternera-en-salsa-de-almendras.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Ternera en Salsa de Almendras</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="Modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Ternera en Salsa de Almendras</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>4 filetes de ternera, gruesos y de la calidad preferida</li>
+                  <li>2 cebollas grandes</li>
+                  <li>2 manzanas reineta o fuji</li>
+                  <li>2 dientes de ajo</li>
+                  <li>40 gramos de almendras peladas</li>
+                  <li>1 ramita de perejil picada</li>
+                  <li>1 vaso mediano de caldo de carne</li>
+                  <li>1 hoja de laurel</li>
+                  <li>Pimienta al gusto</li>
+                  <li>Sal al gusto</li>
+                  <li>Aceite de oliva</li>
+                </ul>
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>Pelamos una de las cebollas y los ajos, y los picamos. Los ajos en trozos finos y la cebolla en
+                    láminas muy finas.</li>
+                  <li>Con ayuda de un mortero, troceamos las almendras ya peladas.</li>
+                  <li>Ponemos una sartén al fuego y añadimos un chorrito generoso de aceite de oliva. Luego, vertemos la
+                    cebolla picada y la pochamos durante unos minutos a fuego medio. Cuando esté dorada, agregamos el
+                    ajo troceado, la ramita de laurel, el perejil picado, la sal y la pimienta al gusto, así como el
+                    vaso de caldo de carne. Dejamos que todo se cocine durante aproximadamente 12 minutos y reservamos
+                    la salsa resultante.</li>
+                  <li>Por otro lado, lavamos bien las manzanas, les quitamos el corazón y las cortamos en gajos. También
+                    pelamos la cebolla restante y la cortamos en cuartos. Echamos ambos ingredientes en una sartén con
+                    un chorrito de aceite y los rehogamos durante varios minutos, hasta que la manzana esté muy blanda
+                    pero sin llegar a deshacerse.</li>
+                  <li>Finalmente, doramos los filetes en la misma sartén donde cocinamos la manzana para aprovechar los
+                    jugos. Una vez listos, los servimos en un plato junto con la salsa, la manzana y la cebolla. Podemos
+                    decorar el plato con un poco de romero.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class='imgs-container m-2'>
+          <div class='receta-container'>
+            <a href="" data-toggle="modal" data-target="#Modal">
+              <img class='rounded-4 zoom-img' width="400" height="400"
+                src="imagenes/carneRoja/pimientos-verdes-rellenos-de-carne.jpg" />
+              <div class="overlay">
+                <div class="texto-overlay">
+                  <p>Pimientos Verdes rellenos de carne</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="Modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Pimientos Verdes rellenos de carne</h3>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>1 docena de pimientos de tamaño mediano (7-8 cm de largo)</li>
+                  <li>700 gramos de carne picada (idealmente, 350 gramos de carne de cerdo y 350 gramos de carne de res)
+                  </li>
+                  <li>2 cebollas</li>
+                  <li>Media taza de arroz</li>
+                  <li>Eneldo al gusto</li>
+                  <li>Perejil al gusto</li>
+                  <li>150 gramos de tomate triturado</li>
+                  <li>Pimienta en polvo al gusto</li>
+                  <li>Sal al gusto</li>
+                  <li>Pimentón dulce (una cucharada)</li>
+                  <li>1 cucharadita de pasta de tomate</li>
+                  <li>1 huevo entero</li>
+                  <li>3 hojas de laurel</li>
+                  <li>Aceite de oliva</li>
+                </ul>
+                <hr>
+                <h5>Preparacion:</h5>
+                <ol>
+                  <li>Limpia los pimientos de semillas y otros restos. Deja que escurran para que estén secos antes de
+                    usarlos.</li>
+                  <li>Vierte la carne picada en un bol amplio y añade la cebolla finamente picada sobre la carne.</li>
+                  <li>Añade el arroz lavado y escurrido, la sal, la pimienta, el pimentón, la pasta de tomate y el resto
+                    de las verduras picadas al bol.</li>
+                  <li>Mientras mezclas, agrega el huevo entero. Asegúrate de que la mezcla sea firme.</li>
+                  <li>Rellena los pimientos con la mezcla de carne picada, dejando un poco de espacio adicional teniendo
+                    en cuenta que el arroz se hinchará al hervir.</li>
+                  <li>Tienes varias opciones para cocinar los pimientos. Puedes cocinarlos al vapor, lo cual es
+                    recomendable, o al horno a baja temperatura. Si optas por el horno, agrega un poco de agua en el
+                    fondo de la bandeja para que se cree un efecto de "vapor" durante la cocción.</li>
+                  <li>Detén la cocción una vez que los pimientos comiencen a dorarse, pero no dejes que se doren por
+                    completo.</li>
+                  <li>Vierte el tomate triturado por completo sobre los pimientos para que espese y se adhiera debido al
+                    calor. Si puedes usar una mezcla espesa previamente, es aún mejor. Agrega un poco de azúcar por
+                    encima para equilibrar la acidez del tomate.</li>
+                  <li>Ajusta las salsas a tu gusto hasta obtener el resultado deseado. Debido a la capa de tomate, el
+                    interior quedará perfectamente cocido y caliente al mismo tiempo.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      
-    </footer>
+    </div>
+
+  </main>
+
+  <footer class="bg-secondary">
+    <div class="container text-light">
+      <div class="d-flex row justify-content-between pt-3 pb-3">
+        <div class="col-md-4 d-flex justify-content-center">
+          <a href="index.html">
+            <img class="icon-footer" src="imagenes/recipe-icon.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-end">
+          <p>&copy; Todos los derechos reservados</p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-evenly align-items-center">
+          <a class="text-white" href="https://www.facebook.com"><i class="bi bi-facebook fs-3"></i></a>
+          <a class="text-white" href="https://www.instagram.com"><i class="bi bi-instagram fs-3"></i></a>
+          <a class="text-white" href="https://www.twitter.com"><i class="bi bi-twitter fs-3"></i></a>
+          <a class="text-white" href="https://www.tiktok.com"><i class="bi bi-tiktok fs-3"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+
+  </footer>
 </body>
+
 </html>
